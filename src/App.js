@@ -1,23 +1,37 @@
 import "./App.css";
 import { NavMenu } from "./component/navbar";
-import { Spinner } from "react-bootstrap";
-import { BrowserRouter } from "react-router-dom";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AboutUs from "./component/aboutus";
+import ContactUs from "./component/contactus";
+import Home from "./component/home";
+import DownloadCV from "./component/downloadcv";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <Router>
+      <div className="App">
         <NavMenu />
-      </BrowserRouter>
 
-      <h4>Hey it's me Deepak Khadka </h4>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
 
-      <h2>Website is under construction in react js</h2>
+          <Route path="/contact-us">
+            <ContactUs />
+          </Route>
 
-      <Spinner animation="border" role="status">
-        <span className="visually-hidden">Loading...</span>
-      </Spinner>
-    </div>
+          <Route path="/about-us">
+            <AboutUs />
+          </Route>
+
+          <Route path="/download-cv">
+            <DownloadCV />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
