@@ -1,6 +1,5 @@
 import "./App.css";
 import { NavMenu } from "./component/navbar";
-import "bootstrap/dist/css/bootstrap.css";
 
 import {
   BrowserRouter,

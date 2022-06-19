@@ -1,17 +1,15 @@
 import {Spinner} from "react-bootstrap";
+import ProjectList from "./home/project-list";
+import Portfolio from "./home/portfolio";
 
 const Home = () => {
     return (
-        <div className="container">
-            <center>
-                <h4>Hey it's me Deepak Khadka </h4>
+        <div className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover">
 
-                <h2>Website is under construction in react js</h2>
+            <Portfolio />
 
-                <Spinner animation="border" role="status">
-                    <span className="visually-hidden">Loading...</span>
-                </Spinner>
-            </center>
+            < ProjectList />
+
         </div>
     );
 };
