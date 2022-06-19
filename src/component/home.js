@@ -1,4 +1,3 @@
-import {Spinner} from "react-bootstrap";
 import ProjectList from "./home/project-list";
 import Portfolio from "./home/portfolio";
 
