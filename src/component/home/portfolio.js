@@ -1,3 +1,4 @@
+import DeepakImage from "../../images/deepak.jpg";
 const Portfolio = () => {
 
 
@@ -9,7 +10,7 @@ const Portfolio = () => {
               <div className="p-4 md:p-12 text-center lg:text-left">
                   <div
                       className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-                      style={{ backgroundImage: "url(../images/deepak.jpg)"}}></div>
+                      style={{ backgroundImage: "url("+DeepakImage+")"}}></div>
 
                   <h1 className="text-3xl font-bold pt-8 lg:pt-0">Deepak Khadka</h1>
                   <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -82,7 +83,7 @@ const Portfolio = () => {
           </div>
 
           <div className="w-full lg:w-2/5">
-              <img src="https://scontent.fktm14-1.fna.fbcdn.net/v/t39.30808-6/273484872_1858929830956859_7291894592493278326_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JXbOlAXuGgYAX8DcFqu&_nc_ht=scontent.fktm14-1.fna&oh=00_AT-8FNIVjTS828yyBoRaJFhJdHE3xlbkyXM8NDtt20rtAw&oe=62B3AEFE"
+              <img src={DeepakImage}
                    className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="test"/>
 
           </div>
