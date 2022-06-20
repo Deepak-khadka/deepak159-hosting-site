@@ -8,7 +8,6 @@ export const NavMenu = () => {
     const body = document.querySelector('body');
     const profile = document.getElementById('profile');
     const toggleTheme = document.getElementById('nav-theme');
-    const textColor = document.getElementsByClassName('text-gray-300');
 
     if (body.classList.contains('text-gray-900')) {
       toggle.innerHTML = "☀";
@@ -18,8 +17,6 @@ export const NavMenu = () => {
       profile.classList.add('bg-gray-900');
       toggleTheme.classList.remove('bg-white-900');
       toggleTheme.classList.add('bg-grey-900');
-      textColor.classList.remove('text-gray-300');
-      textColor.classList.add('text-black-300');
       ;
     } else
     {
