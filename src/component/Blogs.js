@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 
 
 function Blogs() {
     return(
-        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <>
+           <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <div>
       <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -32,18 +34,21 @@ function Blogs() {
       <p class="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
         28 JUN 2022
       </p>
-      <a href="/" class="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400" aria-label="Read article" title="Nori grape silver beet broccoli kombu beet">
-       How to host your domain using cloudfare
-      </a>
-      <p class="max-w-xs mx-auto mb-2 text-gray-700">
-        You can use github, gitlab as your project bucket. 
-        You should register your domain name and 
-        Should create account in cloudfare
-      </p>
-      <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Read more</a>
+     
+       <Link to="/blogs/hosting-with-cloudfare-and-github" >
+         <span class="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400">
+        How to Deploy your portfolio with Github pages and Host on Cloudfare
+         </span>
+       </Link>
+      <span class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+      <Link to="/blogs/hosting-with-cloudfare-and-github" >
+        Read more
+        </Link>
+        </span>
     </div>
    </div>
 </div> 
+        </>
     )
  }
  
