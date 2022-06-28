@@ -51,6 +51,10 @@ export const NavMenu = () => {
                         <Link
                             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-decoration-line: none"
                             to="/contact-us">Contact us</Link>
+
+<Link
+                            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-decoration-line: none"
+                            to="/blogs">Blogs</Link>
                       </div>
                     </div>
                   </div>
