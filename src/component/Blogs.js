@@ -46,6 +46,24 @@ function Blogs() {
         </Link>
         </span>
     </div>
+
+    <div className="px-10 py-20 text-center border rounded lg:px-5 lg:py-10 xl:py-20">
+      <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
+        30 JUN 2022
+      </p>
+     
+       <Link to="/" >
+         <span className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400">
+             How to get github student pack and the benefits of it
+         </span>
+       </Link>
+      <span className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+      <Link to="/" >
+        Read more
+        </Link>
+        </span>
+    </div>
+
    </div>
 </div> 
         </>

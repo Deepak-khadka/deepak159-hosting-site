@@ -91,7 +91,7 @@ const CloudfareHosting = () => {
                             <p className="text-gray-500 dark:text-gray-300">
                                 Step 8: Register your Domain name in the custom Domain panel.
                                 <Zoom>
-                                    <img src={ChooseDomain} alt="Choose Domain"/>
+                                    <img src={ChooseDomain} alt="Choose Domain "/>
                                 </Zoom>
                             </p>
                         </div>
