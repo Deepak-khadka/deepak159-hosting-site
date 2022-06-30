@@ -1,87 +1,100 @@
 import pageImage from "../../images/cloudfare-hosting/goto-pages.png";
 import CreateProjectImage from "../../images/cloudfare-hosting/create-a-project.png";
+import ConnectToGit from "../../images/cloudfare-hosting/conntect-to-git.png";
+import ChooseRepository from "../../images/cloudfare-hosting/choose-your-repository.png";
+import SelectBranch from "../../images/cloudfare-hosting/select-branch-&-framework.png";
+import ChooseDomain from "../../images/cloudfare-hosting/choose-domain.png";
+
 import React from 'react'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const CloudfareHosting = () => {
     return (
-          <section className="bg-white dark:bg-gray-900 container-fluid">
+        <section className="bg-white dark:bg-gray-900 container-fluid">
             <div className="container px-6 py-10 mx-auto">
                 <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-                How to Deploy your portfolio with Github pages and Host on Cloudfare
-                    </h1>
+                    How to Deploy your portfolio with Github pages and Host on Cloudfare
+                </h1>
                 <div className="mt-8 xl:mt-5 lg:flex lg:items-center">
-                    <div className="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2">
+                    <div className="w-full grid grid-cols-3 columns-3 gap-8">
+
                         <div className="space-y-3">
-                        
+
                             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                                <a href="https://github.com">Github Account</a>
+                                <a href="https://github.com">
+                                    <b>Github Account</b>
+                                </a>
                             </h1>
 
+                            <hr/>
                             <p className="text-gray-500 dark:text-gray-300">
-                              Step 1:  Create your github account.
+                                Step 1: Create your github account.
                             </p>
                             <p className="text-gray-500 dark:text-gray-300">
-                              Step 2:  Create repository.
+                                Step 2: Create repository.
                             </p>
                         </div>
 
                         <div className="space-y-3">
-                           
                             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                               Cloudfare
-                                </h1>
+                                <a href="https://dash.cloudflare.com/"> Cloudfare</a>
+                            </h1>
 
-                                <p className="text-gray-500 dark:text-gray-300">
-                              Step 1:  Create your cloudfare account.
+                            <hr/>
+                            <p className="text-gray-500 dark:text-gray-300">
+                                Step 1: Create your cloudfare account.
                             </p>
                             <p className="text-gray-500 dark:text-gray-300">
-                              Step 2:  Create Page.
-                              <Zoom>
-                                 <img src={pageImage}></img>
-                              </Zoom>
+                                Step 2: Create Page.
+                                <Zoom>
+                                    <img src={pageImage} alt="Cloud Fare page"/>
+                                </Zoom>
                             </p>
-
                             <p className="text-gray-500 dark:text-gray-300">
-                              Step 3:  Create a project.
-                              <Zoom>
-                                 <img src={CreateProjectImage}></img>
-                              </Zoom>
+                                Step 3: Create a project.
+                                <Zoom>
+                                    <img src={CreateProjectImage} alt="Create a project"/>
+                                </Zoom>
+                            </p>
+                            <p className="text-gray-500 dark:text-gray-300">
+                                Step 4: Connect to github.
+                                <Zoom>
+                                    <img src={ConnectToGit} alt="Connect to github"/>
+                                </Zoom>
+                            </p>
+                            <p className="text-gray-500 dark:text-gray-300">
+                                Step 5: Choose a repository.
+                                <Zoom>
+                                    <img src={ChooseRepository} alt="Choose repository"/>
+                                </Zoom>
                             </p>
                         </div>
 
                         <div className="space-y-3">
-                            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
-                                </svg>
-                            </span>
-
-                            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Easy to customiztions</h1>
-
+                            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                               Continue...
+                            </h1>
+                            <hr/>
                             <p className="text-gray-500 dark:text-gray-300">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                                Step 6: Select a branch which you want to auto deploy.
+                                <Zoom>
+                                    <img src={SelectBranch} alt="Select a Branch"/>
+                                </Zoom>
+                            </p>
+                            <p className="text-gray-500 dark:text-gray-300">
+                                Step 7: Select a branch which you want to auto deploy.
+                                <Zoom>
+                                    <img src={SelectBranch} alt="Select a Branch"/>
+                                </Zoom>
+                            </p>
+                            <p className="text-gray-500 dark:text-gray-300">
+                                Step 8: Register your Domain name in the custom Domain panel.
+                                <Zoom>
+                                    <img src={ChooseDomain} alt="Choose Domain"/>
+                                </Zoom>
                             </p>
                         </div>
-
-                        <div className="space-y-3">
-                            <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                                </svg>
-                            </span>
-
-                            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Simple & clean designs</h1>
-
-                            <p className="text-gray-500 dark:text-gray-300">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
-                        <img className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                     </div>
                 </div>
             </div>

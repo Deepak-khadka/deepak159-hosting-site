@@ -14,28 +14,6 @@ const ProjectList = () => {
                               className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
                       </div>
                   </div>
-
-                  <div className="group relative">
-                      <div
-                          className="w-full min-h-40 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-50 lg:aspect-none">
-                          <img
-                              src="https://neputer.com/image/clients/16519871766789_kunyo1.png"
-                              alt="Front of men&#039;s Basic Tee in black."
-                              className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
-                      </div>
-
-                  </div>
-
-                  <div className="group relative">
-                      <div
-                          className="w-full min-h-40 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-50 lg:aspect-none">
-                          <img
-                              src="https://neputer.com/image/clients/16519871544678_broadway1.png"
-                              alt=""
-                              className="w-full h-full object-center object-cover lg:w-full lg:h-full"/>
-                      </div>
-                  </div>
-
               </div>
 
           </div>
