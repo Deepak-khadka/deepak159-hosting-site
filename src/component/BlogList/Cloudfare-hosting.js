@@ -14,7 +14,7 @@ const CloudfareHosting = () => {
         <section className="bg-white dark:bg-gray-900 container-fluid">
             <div className="container px-6 py-10 mx-auto">
                 <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-                    How to Deploy your portfolio with Github pages and Host on Cloudfare
+                    How to Deploy your portfolio with Github pages and Host on Cloudflare
                 </h1>
                 <div className="mt-8 xl:mt-5 lg:flex lg:items-center">
                     <div className="w-full grid grid-cols-3 columns-3 gap-8">
@@ -38,12 +38,12 @@ const CloudfareHosting = () => {
 
                         <div className="space-y-3">
                             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                                <a href="https://dash.cloudflare.com/"> Cloudfare</a>
+                                <a href="https://dash.cloudflare.com/"> Cloudflare</a>
                             </h1>
 
                             <hr/>
                             <p className="text-gray-500 dark:text-gray-300">
-                                Step 1: Create your cloudfare account.
+                                Step 1: Create your cloudflare account.
                             </p>
                             <p className="text-gray-500 dark:text-gray-300">
                                 Step 2: Create Page.

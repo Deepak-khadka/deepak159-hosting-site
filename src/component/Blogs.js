@@ -37,7 +37,7 @@ function Blogs() {
      
        <Link to="/blogs/hosting-with-cloudfare-and-github" >
          <span className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400">
-        How to Deploy your portfolio with Github pages and Host on Cloudfare
+        How to Deploy your portfolio with Github pages and Host on Cloudflare
          </span>
        </Link>
       <span className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
