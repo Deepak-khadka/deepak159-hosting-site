@@ -12,7 +12,7 @@ const ContactUs = () => {
         if (email && fullName && message) {
 
             const request = new XMLHttpRequest();
-            request.open("POST", "https://discord.com/api/webhooks/991384867701018684/5Fbfq0E0xO1odBamr7U_TIhYEADMi9BloEnGUnhW5MnyyiqyPkjifgkDKCxI7s5xCbRg");
+            request.open("POST", "https://discord.com/api/webhooks/994466876719636562/n6zKLmHjU9XAy1zeHiVW-ypIzjzCX2LrYYTiF24B9ezi0ksMFkNGRmGQYRlHVW4Y1xkK");
 
             request.setRequestHeader('Content-type', 'application/json');
 
