@@ -9,7 +9,7 @@ const Portfolio = () => {
             style={{ backgroundImage: "url(" + DeepakImage + ")" }}
           ></div>
 
-          <h1 className="text-3xl font-bold pt-8 lg:pt-0">Deepak Khadka</h1>
+          <h1 className="text-3xl font-bold pt-8 lg:pt-0">Deepak Khadka </h1>
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
           <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
             <svg
